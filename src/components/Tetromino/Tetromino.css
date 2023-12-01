@@ -1,0 +1,23 @@
+.drop {
+  position: relative;
+  animation: 3s linear infinite drop;
+}
+
+@keyframes drop {
+  0% {
+    transform: translateY(0vh);
+  }
+  25% {
+    transform: translateY(25vh);
+  }
+  50% {
+    transform: translateY(50vh);
+  }
+  75% {
+    transform: translateY(75vh);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+} 
+
